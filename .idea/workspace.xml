@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="933dc5db-74b9-406a-85b4-4c41ff62fb70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/main/main.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/main.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/main.js" afterPath="$PROJECT_DIR$/client/main/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/materialize-css/bin/materialize.css" afterPath="$PROJECT_DIR$/node_modules/materialize-css/bin/materialize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html" afterPath="$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html" />
     </list>
     <ignored path="S-TeamList.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logoAndLogin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logoAndLogin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materialize.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/bin/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="5402" column="27" selection-start-line="5402" selection-start-column="27" selection-end-line="5402" selection-end-column="27" />
+            <state relative-caret-position="214">
+              <caret line="5347" column="23" selection-start-line="5347" selection-start-column="23" selection-end-line="5347" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -102,8 +97,8 @@
         <option value="$PROJECT_DIR$/client/main.css" />
         <option value="$PROJECT_DIR$/client/main/main.css" />
         <option value="$PROJECT_DIR$/client/main/main.html" />
-        <option value="$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html" />
         <option value="$PROJECT_DIR$/node_modules/materialize-css/bin/materialize.css" />
+        <option value="$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html" />
       </list>
     </option>
   </component>
@@ -306,7 +301,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="card-image&#9;null&#9;null&#10;.card-image&#9;null&#9;null&#10;card-content&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value=". card&#9;null&#9;null&#10;.card&#9;null&#9;null&#10;card&#9;null&#9;null&#10;.collection&#9;null&#9;null&#10;card-image&#9;null&#9;null&#10;.card-image&#9;null&#9;null&#10;card-content&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -386,12 +381,12 @@
       <option name="presentableId" value="Default" />
       <updated>1468069688988</updated>
       <workItem from="1468069690572" duration="202000" />
-      <workItem from="1468069941321" duration="8008000" />
+      <workItem from="1468069941321" duration="11426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8210000" />
+    <option name="totallyTimeSpent" value="11628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -474,18 +469,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/img/office.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/materialize-css/bin/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="5402" column="27" selection-start-line="5402" selection-start-column="27" selection-end-line="5402" selection-end-column="27" />
+        <state relative-caret-position="214">
+          <caret line="5347" column="23" selection-start-line="5347" selection-start-column="23" selection-end-line="5347" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/sideNav/logoAndLogin/logoAndLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
