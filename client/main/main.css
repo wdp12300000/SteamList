@@ -1,0 +1,14 @@
+/* CSS declarations go here */
+.sidebar {
+    width: 240px;
+    position: fixed;
+    box-shadow: 2px 2px 2px #ddd;
+    height: 100%;
+    background-color: #fff;
+    z-index: 998;
+}
+
+main,
+footer {
+    padding-left: 240px;
+}
