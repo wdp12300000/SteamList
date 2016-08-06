@@ -1,0 +1,78 @@
+<template name="modal2">
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>新用户注册</h4>
+            <div class="row">
+                <form class="col s12">
+
+                    <div class="input-field col s6">
+                        <i class="mdi-action-account-circle prefix"></i>
+                        <input name="userName" id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">用户名:</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-lock-outline prefix"></i>
+                            <input name="passWord" id="password" type="password" class="validate">
+                            <label for="password">密码:</label>
+                        </div>
+                    </div>
+
+                    <div class="col s6">
+                        <div class="input-field">
+                            <i class="mdi-communication-phone prefix"></i>
+                            <input name="tel" id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">电话:</label>
+                        </div>
+                    </div>
+
+                    <div class="col s6">
+                        <div class="input-field">
+                            <i class="mdi-communication-stay-primary-portrait prefix"></i>
+                            <input name="weiXin" id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">微信:</label>
+                        </div>
+                    </div>
+
+                    <div class=" col s6">
+                            <label>入职时间:</label>
+                            <div class="input-field">
+                                <i class="mdi-action-alarm prefix"></i>
+                                <input name="entryTime" type="date" class="datepicker">
+                            </div>
+                    </div>
+
+
+                    <div class="col s6">
+                        <label>所属部门:</label>
+                        <div class="input-field">
+                            <select name="department" class="browser-default">
+                                <option value="" disabled selected>选择</option>
+                                <option value="M&D">M&D</option>
+                                <option value="城市之窗-易格">城市之窗-易格</option>
+                                <option value="荣麟京瓷">荣麟京瓷</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-action modal-close waves-effect waves-red btn-flat ">退出注册</a>
+                <a href="#" class="zhucece modal-action modal-close waves-effect waves-green btn-flat " id="zhucebtn">提交注册</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+            $('.modal-trigger').leanModal({
+                dismissible: false
+            })
+        });
+
+    </script>
+</template>

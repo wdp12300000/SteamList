@@ -1,0 +1,39 @@
+<template name="modal1" xmlns="http://www.w3.org/1999/html">
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>用户登录</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="mdi-action-account-circle prefix"></i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">用户名:</label>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="mdi-action-lock-outline prefix"></i>
+                                <input id="password" type="password" class="validate">
+                                <label for="password">密码:</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <a class=" waves-effect waves-light waves-red btn-flat modal-trigger" href="#modal2">新用户注册</a>
+            <a href="/" class="modal-close waves-effect waves-green btn-flat " id="closebutton">登录</a>
+            <!--<a class="waves-effect waves-light btn modal-trigger" id="loginButton3" href="#modal1">登录 / 注册</a>-->
+        </div>
+    </div>
+    <script>
+
+        var b = document.getElementById('closebutton');
+        b.onclick = function () {
+            $('#modal1').closeModal();
+        }
+
+    </script>
+</template>

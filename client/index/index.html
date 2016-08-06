@@ -1,0 +1,118 @@
+<template name="index">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="zhuyecss">主页</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="badges">标签</a></li>
+                <li><a href="buttons">按钮</a></li>
+                <li><a href="footer">页脚</a></li>
+
+            </ul>
+
+
+        </div>
+    </nav>
+
+    <div class="container" >
+        <h3 class="header indigo-text lighten-1 section-title">
+            <span><i class="mdi-action-cached"></i>Work Process</span>
+
+        </h3>
+        <div class="row">
+
+            <div class="col s4 ">
+                <!-- Promo Content 1 goes here -->
+                <div class="card small ">
+                    <div class="card-image">
+                        <img src="img/yuna.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href='#'>This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <!-- Promo Content 2 goes here -->
+                <div class="card small ">
+                    <div class="card-image">
+                        <img src="img/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href='#'>This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s4">
+                <!-- Promo Content 3 goes here -->
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="img/office.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href='#'>This is a link</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <img src="img/yuna.jpg" alt="" class="circle">
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="mdi-file-folder circle"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="mdi-action-assessment circle green"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="mdi-av-play-arrow circle red"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        {{>modal1}}
+        {{>modal2}}
+
+    </div>
+
+</template>

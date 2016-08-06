@@ -12,3 +12,69 @@ main,
 footer {
     padding-left: 240px;
 }
+
+.sidebar a {
+    line-height: 44px;
+    height: 44px;
+    font-weight: bolder;
+    display: block;
+    color: #444;
+    padding: 0 25px;
+}
+
+.sidebar .sidebarList a {
+    line-height: 24px;
+    height: 20px;
+    font-weight: bolder;
+    display: block;
+    color: #444;
+    padding: 0 52px;
+}
+@media only screen and (min-width: 993px) {
+    main{}
+    .container {
+        width: 85% !important;
+    }
+
+}
+
+#loginButton1{
+    height: 55px;
+    position: relative;
+    padding: 0.1px 0.1px 0.1px 0.1px;
+}
+
+#loginButton2{
+    margin: 0.1px 0.1px 0.1px 0.1px;
+
+}
+
+#loginButton3{
+    line-height: 60px;
+    height: 55px;
+    font-weight: bolder;
+    display: block;
+    color: #444;
+    padding: 0 25px;
+}
+
+#loginButton4{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+}
+
+#zhuyecss{
+
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    /* padding: 0; */
+    padding-left: 30px;
+
+}
+
+

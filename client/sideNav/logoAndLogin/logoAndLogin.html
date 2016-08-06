@@ -1,19 +1,72 @@
 <template name="logoAndLogin">
-    <div class="card ">
-        <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/office.jpg">
+    <div class="sidebar">
+        <!--侧菜单企业logo及登录-->
+        <div class="card ">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/office.jpg">
+            </div>
+            <ul class="collection">
+                <li class="collection-item avatar" id="loginButton1">
+                    {{#if currentUser}}
+                        <img src="img/yuna.jpg" alt="" class="circle">
+                        <span class="title">张馨月</span>
+                        <p>主管理员</p>
+                        <a href="#!" class="secondary-content"><i class="small mdi-action-account-balance-wallet"></i>****</a>
+                    {{else}}
+                        <!--<img src="img/yuna.jpg" alt="" class="circle">-->
+                        <!--<span class="title">张馨月</span>-->
+                        <!--<p>主管理员</p>-->
+                        <!--<a href="#!" class="secondary-content"><i class="small mdi-action-account-balance-wallet"></i>****</a>-->
+                        {{> loginTmp}}
+                    {{/if}}
+                </li>
+            </ul>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">M&D沙发<i class="mdi-navigation-close right"></i></span>
+                <p>本月任务,任务进度,准客户/当前业绩等各个进度条</p>
+            </div>
         </div>
-        <ul class="collection">
-            <li class="collection-item avatar">
-                <img src="img/yuna.jpg" alt="" class="circle">
-                <span class="title">王大鹏</span>
-                <p>主管理员</p>
-                <a href="#!" class="secondary-content"><i class="small mdi-action-account-balance-wallet"></i>****</a>
-            </li>
-        </ul>
-        <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">M&D沙发<i class="mdi-navigation-close right"></i></span>
-            <p>本月任务,任务进度,准客户/当前业绩等各个进度条</p>
+        <!--侧菜单列表部分-->
+        <div class="sidebarList">
+            <ul class="collapsible " data-collapsible="accordion">
+
+                <li>
+                    <div class="collapsible-header"><i class="mdi-maps-place"></i>主页</div>
+                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal active "><i class="mdi-action-assignment"></i>事务列表</div>
+                    <div class="collapsible-body">
+                        <ul class="collection">
+                            <li class="collection-item waves-effect waves-teal ">
+                                <a href="">待办事务表</a>
+                            </li>
+                            <li class="collection-item waves-effect waves-teal ">
+                                <a href="">待办事务表</a>
+                            </li>
+                            <li class="collection-item waves-effect waves-teal">
+                                <a href="">审批事务表</a>
+                            </li>
+                            <li class="collection-item waves-effect waves-teal">
+                                <a href="">进度计划表</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="mdi-maps-place"></i>财务报表</div>
+                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="mdi-social-whatshot"></i>薪资系统</div>
+                    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                </li>
+
+            </ul>
         </div>
     </div>
+
+
 </template>
