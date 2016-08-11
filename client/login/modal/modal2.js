@@ -5,7 +5,7 @@ Template.modal2.events({
     'click .zhucece': function(event) {
         event.preventDefault();
 
-        var steamUser = {
+        var wanShanUser = {
             userName: $('form').find('[name="userName"]').val(),
             passWord: $('form').find('[name="passWord"]').val(),
             tel: $('form').find('[name="tel"]').val(),
@@ -14,8 +14,13 @@ Template.modal2.events({
             department: $('form').find('[name="department"]').val(),
             
         };
-        // console.log(JSON.stringify(steamUser))
-        SteamUsers.insert(steamUser);
+        Meteor.user()
+        // Meteor.steamUsers.find()
+        // console.log(JSON.stringify(SteamUsers.findOne({"tel":"18641631818"}).weiXin))
+        // 
+        // users.findOne({'_id':'S2b5tuMBumokFtt2t'}).weiXin
+
+
 
     }
 

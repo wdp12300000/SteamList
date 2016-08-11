@@ -7,17 +7,13 @@
             </div>
             <ul class="collection">
                 <li class="collection-item avatar" id="loginButton1">
-                    {{#if currentUser}}
+                    {{#if wanshan}}
                         <img src="img/yuna.jpg" alt="" class="circle">
                         <span class="title">张馨月</span>
                         <p>主管理员</p>
                         <a href="#!" class="secondary-content"><i class="small mdi-action-account-balance-wallet"></i>****</a>
                     {{else}}
-                        <!--<img src="img/yuna.jpg" alt="" class="circle">-->
-                        <!--<span class="title">张馨月</span>-->
-                        <!--<p>主管理员</p>-->
-                        <!--<a href="#!" class="secondary-content"><i class="small mdi-action-account-balance-wallet"></i>****</a>-->
-                        {{> loginTmp}}
+                        {{>loginTmp}}
                     {{/if}}
                 </li>
             </ul>
